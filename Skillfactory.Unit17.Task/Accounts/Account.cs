@@ -1,6 +1,6 @@
 ﻿namespace Skillfactory.Unit17.Task.Accounts
 {
-    public abstract class Account
+    public class Account
     {
        // тип учетной записи
         public string Type { get; set; }

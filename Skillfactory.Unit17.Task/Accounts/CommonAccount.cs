@@ -1,8 +1,8 @@
 ﻿namespace Skillfactory.Unit17.Task.Accounts
 {
-    public class CommonAccount: Account, ICalculate
+    public class CommonAccount: ICalculate
     {
-        public void CalculateInterest(CommonAccount account)
+        public void CalculateInterest(Account account)
         {
             account.Interest = account.Balance * 0.4;
 

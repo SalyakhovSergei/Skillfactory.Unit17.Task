@@ -1,4 +1,5 @@
 ﻿using System;
+using Skillfactory.Unit17.Task.Accounts;
 
 namespace Skillfactory.Unit17.Task
 {
@@ -6,7 +7,9 @@ namespace Skillfactory.Unit17.Task
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var calculator = new Calculator();
+            calculator.CalculateInterest(new CommonAccount());
+            calculator.CalculateInterest(new SalaryAccount());
         }
     }
 }

@@ -2,12 +2,12 @@
 
 namespace Skillfactory.Unit17.Task
 {
-    public static class Calculator 
+    public class Calculator 
     { 
         // Метод для расчета процентной ставки
-        public static void CalculateInterest(ICalculate calculate) 
+        public void CalculateInterest(ICalculate calculate) 
         { 
-            calculate.CalculateInterest(new CommonAccount());
+            calculate.CalculateInterest(new Account());
         }
     } 
 }

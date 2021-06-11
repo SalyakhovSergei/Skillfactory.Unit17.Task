@@ -4,6 +4,6 @@ namespace Skillfactory.Unit17.Task
 {
     public interface ICalculate
     {
-        public void CalculateInterest(CommonAccount account);
+        public void CalculateInterest(Account account);
     }
 }
